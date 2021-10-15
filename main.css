@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #0d0c1d;
+  color: #f8f4f9;
+}
+
+.container {
+  /*max-width: 120rem;*/
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+span a{
+  color: #467cfb;
+}
+
+.searchbar-label {
+  display: block;
+  margin: 10rem 0 2.5rem;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+  padding: 20px 50px;
+  background-color: #0d0c1d;
+  border: none;
+  outline: 2px solid #7c2af1;
+  color: #f8f4f9;
+  box-shadow: 1px 1px 5px 8px #f33446;
+  font-size: 20px;
+  border-radius: 5px;
+
+
+}
+
+input[type="text"]:focus {
+  border: none;
+  outline-color: #f3414e;
+}
+
+.searchbar {
+  max-width: 35rem;
+  margin-bottom: 5rem;
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.search-results-item {
+  border: 1px solid ;
+  background-color: #4248ee;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+.search-result-items{
+  width: 100%;
+  background-color: #161731;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 2px rgb(1, 255, 255);
+}
+span{
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff7f58;
+  padding: 10px 40px;
+}
+.search-results{
+
+}
+
+.search-item {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.search-item:last-child {
+  margin-bottom: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #151630;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7c2af1;
+  border-radius: 0.8rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.title {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 8rem;
+  margin: 4rem 0 2.5rem;
+}
+
+@media screen and (min-width: 2000px) {
+    html {
+        font-size: 92.5%;
+      }
+}
+@media screen and (max-width:768px){
+  .title{
+    font-size: 4rem;
+    text-shadow: 1px 1px 10px #ff13eb;
+  }
+  .searchbar{
+    width: 80%;
+    font-size: 18px!important;
+    color: #fff!important;
+  }
+  .search-item{
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
+  .dayone{
+    font-size: 16px!important;
+    color: #fbff13;
+  }
+}
