@@ -19,7 +19,7 @@ const databese = [
       carNumber: "3: Ekonometrika asoslari(pr_P.Raxmonnazarov) => 5-102",
     },
     {
-      carName: "Kun: Payshhanba",
+      carName: "Kun: Payshanba",
       carPrice: '1: Soliq va soliqqa tortish (lek_O.Nurmatov) => 2G',
       manzil:"2: Pul kredit banklar (pr_S.Abdullayeva) =>5-303",
       carNumber: "3: Xalqaro moliyaviy standartlashtirish(pr_D.Razzaqova) => 5-407",
