@@ -31,7 +31,7 @@ const databese = [
       carNumber: "3: Soliq va soliqqa tortish(pr_D.Razzaqova) => 5-502",
     },
     {
-      carName: "Kun: Dam",
+      carName: "Kun: Dam(shanba)",
       carPrice: '1: Sug\'urta ishi (lek_A.Temirqulov) => 2G',
       manzil:"2: Buxgalteriya hisobi (lek_I.G'aniboyev)=>2G",
       carNumber: "3:Uygaa==>>>>>",
