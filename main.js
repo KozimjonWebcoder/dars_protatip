@@ -2,7 +2,7 @@
 const databese = [
     {
       carName: "Kun: Dushanba",
-      carPrice: '1. Ekonometrika asoslari(lek_A.Usmonov) => 8G',
+      carPrice: '1. Ekonometrika asoslari(lek_A.Usmonov) => 3G',
       manzil:"2. Halqaro moliyaviy hisob (lek_O.Nurmatov) => 4G",
       carNumber: "3-para: Uyda ",
     },
